@@ -1,0 +1,105 @@
+h1{color:rgba(51, 76, 86, 0.895);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: italic;
+    text-align:center;
+    margin-left: 80px;
+    
+    
+    }
+    
+    #Menu li {list-style: none;
+    display:inline-block;
+    margin: 0 50px;
+    line-height: 50px;
+    color: white;
+    }
+    
+    #Menu ul {
+        position: absolute ;
+        left: 400px;
+        top: 0;
+        margin: 0;
+        ;
+    
+    }
+    
+    #Menu{position:sticky;
+        top: 0;
+        height: 50px;
+    }
+    
+    #Menu li:hover {
+        background-color: white;
+        color:rgba(41, 98, 120, 0.721) ;
+    }
+    
+    
+      
+    
+    div {background-color: rgba(41, 98, 120, 0.721);}
+    
+    
+    
+    p{text-align: left;
+        margin-left: 80px;}
+    
+    #sub{
+    
+      color: white;
+      font-size: 20px;
+    
+    }
+    h2{text-align: center;}
+    
+    
+    
+    table, th, td {
+        border: 1px solid rgba(167, 196, 216, 0.607);
+      }
+    
+    #somestar{
+        background-color:rgba(37, 171, 90, 0.721) ;
+        color: aliceblue;
+        border-top: 20ch;
+    
+    }
+    #somestar{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    
+    
+    
+    p { 
+        display: block;
+        padding: 10px 16px;
+    text-decoration:none; }
+    
+    
+    #write {background-color:rgba(41, 98, 120, 0.721) ;
+        color: aliceblue;
+        border-top: 20ch;
+    
+    }
+    
+      p{
+        text-align: center;
+      }
+    
+    #pstars{
+        text-align: center;
+    }
+    
+    #pstars img {
+        width: 200px;
+        height: 200px;
+    
+    
+    
+    }
+    
+    footer{text-align: center;}
+    
