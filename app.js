@@ -65,13 +65,17 @@ for(let i = 0; i < array_questions.length; i++)
 }
 
 
-let stars = prompt("please can you  rate our club ?")
-if (rate < 0)
-    rate = 0;
-else if (rate > 5)
+  let rate = prompt("please can you  rate our club ?")
+
+if (rate >=5) {
     rate = 5;
+    alert(" Thank You for 5 rating!")
+}
+else if (rate > 0 && rate < 5){
+  alert("Thank you for your " + rate + " rating")
+}
 
-
-    alert("thanks for your rate"+ stars);
-
-    console.log(stars);
+    else if (rate <= 0){
+        rate = 0;
+        alert("Thank you for your " + rate + " rating")
+    }
